@@ -14,14 +14,14 @@ during Explosive eruption, which will be shown in Kozono (2020), Kazan.
 ```bash
     pip install numpy
     pip install matplotlib
-    ```
+```
 
 # Usage
 
 Run "Conduit_Ex_Py.py"
-
-  # python Conduit_Ex_Py.py
-
+```bash
+python Conduit_Ex_Py.py
+```
 Execution in Google Colab (https://colab.research.google.com/notebooks/intro.ipynb) is tested.
 
 # Author
