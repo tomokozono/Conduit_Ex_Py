@@ -11,8 +11,10 @@ during Explosive eruption, which will be shown in Kozono (2020), Kazan.
 * numpy
 * matplotlib
   - In command line interfarce,
-    # pip install matplotlib
-    # pip install matplotlib
+```bash
+    pip install numpy
+    pip install matplotlib
+    ```
 
 # Usage
 
