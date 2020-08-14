@@ -18,6 +18,7 @@ rhol  = 2500.0  # Liquid density (kg/m3)
 rhoc  = 2500.0  # Crystal density (kg/m3)
 s     = 4.11E-6 # Solubility constant (Pa^{-0.5})
 pa    = 1.0E+5  # Atmospheric pressure (Pa)
+lambw = 0.03    # Friction coefficent for wall friction in gas-pyroclast flow
 phicr = 0.8     # Critical porosity for fragmentation
 
 # Constants for q-loop and p-grid
@@ -102,9 +103,8 @@ def eta(p):
 def Fric(p):
     if phi(p) < phicr:
         return 8.0*eta(p)*v(p)/(rc**2.0)
-#        return 8.0*eta*v(p)/(rc**2.0)
     else:
-        return 0.0
+        return lambw*rhog(p)*v(p)**2.0/(4.0*rc)
 
 # Mach number squared (i.e., M^2)
 def M2(p):
