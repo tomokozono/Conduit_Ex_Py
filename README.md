@@ -3,7 +3,7 @@
 # Features
 
 Conduit_Ex_Py.py is provided as demo code for the calculation of 1D steady conduit flow model
-during Explosive eruption, which will be shown in Kozono (2020), Kazan.
+during Explosive eruption, which will be shown in Kozono (2021), Kazan.
 
 # Requirement
 
