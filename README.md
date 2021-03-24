@@ -10,7 +10,7 @@ during Explosive eruption, which will be shown in Kozono (2021), Kazan.
 * Python 3.7.4
 * numpy
 * matplotlib
-  - In command line interfarce,
+  - In command line interface,
 ```bash
     pip install numpy
     pip install matplotlib
